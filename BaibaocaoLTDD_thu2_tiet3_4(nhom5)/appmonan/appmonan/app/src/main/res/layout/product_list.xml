@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:background="#003300"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/anh1">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TÊN APP"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </CheckBox>
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/a6">
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/product_ten_an_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Side to Side"
+                android:textSize="25sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/product_dchi_an_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:text="Ariana Grande"
+                android:textSize="16dp"
+                android:textStyle="italic">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:drawableRight="@drawable/ic_cong"
+            android:background="@drawable/button_trang">
+        </Button>
+        <Button
+            android:layout_width="40sp"
+            android:layout_height="30sp"
+            android:drawableRight="@drawable/ic_remove"
+            android:background="@drawable/button_trang">
+        </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

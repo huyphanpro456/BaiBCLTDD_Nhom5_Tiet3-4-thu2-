@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangKi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng kí"
+            android:textSize="25dp"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold">
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/f"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vui lòng nhập email/SĐT "
+        android:drawableLeft="@drawable/ic_sdt"
+        android:layout_marginTop="50dp" />
+    <EditText
+        android:id="@+id/edittextpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_do"
+        android:text="Tiếp tục" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khi tiếp tục bạn đồng ý với Điều khoản sử dụng và Chính sách bảo mật của chúng tôi"
+        android:gravity="center"
+        android:layout_marginTop="10dp" />
+
+
+
+</LinearLayout>
+

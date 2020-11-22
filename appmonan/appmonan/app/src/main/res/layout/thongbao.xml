@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:background="#CC0000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:background="#CC0000"
+            android:drawableRight="@drawable/ic_setting"
+            android:layout_marginLeft="16dp">
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông Báo"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="#CC0000"
+            android:drawableRight="@drawable/ic_find"
+            android:layout_marginLeft="75dp">
+        </Button>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_thongbao"
+        android:layout_width="match_parent"
+        android:layout_height="580dp">
+    </ListView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_home"
+            android:background="@drawable/button_footer"
+            android:text="Home"
+            />
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="32dp"
+            android:drawableTop="@drawable/ic_thongbao"
+            android:background="@drawable/button_footer"
+            android:text="Thông báo"/>
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_toi"
+            android:background="@drawable/button_footer"
+            android:text="Tôi">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

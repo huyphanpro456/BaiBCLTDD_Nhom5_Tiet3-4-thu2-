@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <ListView
+      android:layout_width="match_parent"
+      android:layout_height="630dp"
+      android:id="@+id/lv_gantoi">
+  </ListView>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="70dp"
+      android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/bt_thongbao"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/button_footer"
+        android:drawableTop="@drawable/ic_home"
+        android:text="Home" />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="32dp"
+        android:drawableTop="@drawable/ic_thongbao"
+        android:background="@drawable/button_footer"
+        android:text="Thông báo"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:drawableTop="@drawable/ic_toi"
+        android:background="@drawable/button_footer"
+        android:text="Tôi">
+    </Button>
+
+  </LinearLayout>
+</LinearLayout>

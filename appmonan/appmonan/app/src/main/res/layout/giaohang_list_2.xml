@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/a22">
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/product_ten_an_vat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Bánh Tráng Cô Thê"
+                android:textColor="#111"
+                android:textSize="25sp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/product_dchi_an_vat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="34/4 Trưng Nữ Vương"
+                android:textSize="16dp"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Giá ~ 18k"
+                android:textColor="#00FFFF"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:drawableLeft="@drawable/ic_giatien">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="FreeShip"
+                android:textColor="#FF0000"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_freeship">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

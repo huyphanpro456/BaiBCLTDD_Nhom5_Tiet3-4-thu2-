@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#CC0000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="8dp"
+            android:text="Tìm kiếm địa điểm, món ăn, địa chỉ..."
+            android:background="#fff"
+            android:drawableLeft="@drawable/ic_timkiemmenu">
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đà Nẵng"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#111"
+            android:textSize="18sp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:src="@drawable/foody">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="33dp"
+                android:background="@drawable/button_do"
+                android:drawableBottom="@drawable/a5">
+            </Button>
+            <Button
+                android:id="@+id/bt_giaohang"
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_do"
+                android:drawableBottom="@drawable/a7">
+            </Button>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_do"
+                android:drawableBottom="@drawable/a8">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Khám phá"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#111111">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="42dp"
+                android:text="Giao hàng"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#111111">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Đặt chỗ"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#111111">
+            </TextView>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+             <GridView
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:id="@+id/GV_trangchu"
+                android:numColumns="2">
+            </GridView>
+            </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_footer"
+            android:drawableTop="@drawable/ic_home"
+            android:text="Home" />
+        <Button
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="32dp"
+            android:drawableTop="@drawable/ic_thongbao"
+            android:background="@drawable/button_footer"
+            android:text="Thông báo"/>
+        <Button
+
+            android:layout_marginTop="5dp"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:drawableTop="@drawable/ic_toi"
+            android:background="@drawable/button_footer"
+            android:text="Tôi">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

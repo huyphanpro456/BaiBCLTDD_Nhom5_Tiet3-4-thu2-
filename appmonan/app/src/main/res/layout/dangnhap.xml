@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhap">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:drawableLeft="@drawable/ic_back" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+    <Button
+        android:id="@+id/bt_dienthoai"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập với Số điện thoại"
+        android:drawableLeft="@drawable/ic_iphone"
+        android:background="@drawable/button_xanhla"/>
+    <Button
+        android:id="@+id/bt_fb"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_dangnhap"
+        android:drawableLeft="@drawable/ic_fb"
+        android:text="Đăng nhập với Facebook" />
+    <Button
+        android:id="@+id/bt_gg"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_cam"
+        android:drawableLeft="@drawable/ic_google_plus"
+        android:text="Đăng nhập với Google" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoặc đăng nhập bằng tài khoản của bạn"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vui lòng nhập email/SĐT"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_mail"/>
+    <EditText
+        android:id="@+id/edittextpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bt_dangnhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_do"
+            android:text="Đăng nhập">
+        </Button>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu"
+        android:gravity="center"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:text="Chúng tôi sẽ không sử dụng thông tin của bạn với bất ký mục đích nào khác."
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bằng cách đăng nhập hoặc đăng ký, bạn dồng ý với điểu khoản sử dụng"
+        android:textSize="15dp"
+        />
+    </LinearLayout>
+</LinearLayout>
